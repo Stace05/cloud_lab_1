@@ -8,18 +8,7 @@ from my_project.auth.domain import Aircraft
 aircraft_bp = Blueprint('aircrafts', __name__, url_prefix='/aircrafts')
 
 
-#@aircraft_bp.get('')
-#def get_all_aircrafts() -> Response:
-    """
-    Get all aircrafts
-    ---
-    tags:
-      - Aircraft
-    responses:
-      200:
-        description: List of all aircrafts
-    """
-#    return make_response(jsonify(aircraft_controller.find_all()), HTTPStatus.OK)
+
 
 
 @aircraft_bp.post('')
