@@ -26,7 +26,6 @@ jobs:
             cd ~/cloud_lab_1
             git fetch origin
             git reset --hard origin/main
-            chmod +x deploy.sh
             source venv/bin/activate
             pip install -r requirements.txt
             sudo systemctl restart myapp
